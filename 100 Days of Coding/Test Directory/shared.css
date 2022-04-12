@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+h1 {
+    font-family: 'Lora';
+    color: blue;
+    padding-top: 115px;
+    border: solid black;
+    background-color: white;
+    margin: auto 300px auto 300px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: 'Lora';
+    color: blue;
+}
+
+p {
+    font-family: 'Lora';
+    color: black;
+    padding-top: 10px;
+}
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#todays-challenge{/*This is the id selector, it allows for specific 
+    changes to only a specific element.*/
+    color: darkorchid;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+img{
+    border: 5px solid white;
+    border-radius: 200px;
+    margin-bottom: -115px;
+}
+
+.weeklyGoal{
+    color: black;
+}
+
+.weeklyLi{
+    background-color: lightgrey;
+}
