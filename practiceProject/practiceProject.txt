@@ -1,6 +1,0 @@
-Note Storage: 
---Being proactive when building a project requires 
-outlining the requirements of the project before beginning.
-Building the structure or code outline is best practice. 
-
-After working haphazardly for the past 2 days(4hrs total time), I couldn't come to understand the project and proceeded forward w/instruction.  
