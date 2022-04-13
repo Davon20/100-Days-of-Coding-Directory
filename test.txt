@@ -12,7 +12,8 @@ Note: git init - initializes the repository to be able to store files
 Here we go with commit #2!
     git branch -m - changes the name of the master branch to whatever is typed after -m, ex: git branch -m main, changes the name to main
     git branch -b feature - changes the branch you are working in. This is done when you need to change and test code before implementing into the main branch or source code.
-    git merge feature - Merges the sub branch into the main/master branch. Always switch to main/master then merge using title of branch to be merged into master.
+    git checkout master - Always switch to main/master then merge using title of branch to be merged into master.
+    git merge feature - Merges the sub branch into the main/master branch. 
 
 Notes for Deleting Branches, Files, & Folder
 --Create Branch: git checkout -b newBranchName, git add ., git commit -m "added newBranchName"
