@@ -13,3 +13,10 @@ Here we go with commit #2!
     git branch -m - changes the name of the master branch to whatever is typed after -m, ex: git branch -m main, changes the name to main
     git branch -b feature - changes the branch you are working in. This is done when you need to change and test code before implementing into the main branch or source code.
     git merge feature - Merges the sub branch into the main/master branch. Always switch to main/master then merge using title of branch to be merged into master.
+
+Notes for Deleting Branches, Files, & Folder
+--Create Branch: git checkout -b newBranchName, git add ., git commit -m "added newBranchName"
+--Deletion from Folder: Requires changes to be staged then committed
+--Deletion from File: git rm fileName.fileExtension. If the file can't be deleted then go into the directory using cd folderName.
+--git reset --hard HEAD~#of commits to return to
+--git branch -D branchName deletes the branch. Change the branch you are on first using git branch -m branchName.
