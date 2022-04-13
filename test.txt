@@ -20,3 +20,8 @@ Notes for Deleting Branches, Files, & Folder
 --Deletion from File: git rm fileName.fileExtension. If the file can't be deleted then go into the directory using cd folderName.
 --git reset --hard HEAD~#of commits to return to
 --git branch -D branchName deletes the branch. Change the branch you are on first using git branch -m branchName.
+--git checkout -- . resets the branch to the last commit.
+
+Adding Repositories
+    1. git remote add origin https://github.com/Davon20/100-Days-of-Coding-Directory
+    2. git push -u origin main 
