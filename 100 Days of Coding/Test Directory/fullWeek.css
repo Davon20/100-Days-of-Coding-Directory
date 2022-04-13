@@ -1,4 +1,3 @@
-<<<<<<< HEAD:fullWeek.css
 h1 {
     font-size: 48px;
 }
@@ -55,62 +54,4 @@ li {
 .weeklyGoal{/*This is a class. It has the properties equal to #, except it 
     is applied to multiple lines of <p>.*/
     margin: 3px;
-=======
-h1 {
-    font-size: 48px;
-}
-
-li h2{/*This is a descendant combinator which allows for changes to occur
-    in elements that are the descendants of a specific section.*/
-    margin: 8px;
-}
-
-a {
-    background-color: white;
-    border-radius: 10px;
-    padding: 12px;
-    margin-right: 12px;
-    display: inline-block;/*This applies the block elements to adopt inline 
-    properties and vice versa.*/
-    /*Inline elements vertical margins do not apply, only horizontal.
-    To change the padding between elements ensure they are the block elements.*/
-}
-
-a:hover {
-    background-color: beige;
-}
-
-ol {
-    list-style: none;
-    margin: 25px 50px;
-    /* margin is the space related to the other elements on the page. 
-    margin's values are vertical & horizontal or singluarly as both.*/
-}
-
-li {
-    margin: 10px 25%;
-    background-color: white;
-    padding: 5px 5px 5px 5px;
-    /*padding defines the space between content and it's borders. 
-    padding's values are defined in sequence of top, right, bottom, left.*/
-    border: 2px solid black;
-    /* border & border-radius defines the size of padding. 
-    border is defined by it's width, type, and color. */
-    width: 50%;
-    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5); 
-    /*First digit represents how far to the right
-    Second digit represents how far down
-    Third digit represents the blue of the shadow
-    Fourth digit represents opacity, or the darkness of the shadow*/
-}
-
-#description {
-    margin-bottom: 30px;
-    font-size: large;
-}
-
-.weeklyGoal{/*This is a class. It has the properties equal to #, except it 
-    is applied to multiple lines of <p>.*/
-    margin: 3px;
->>>>>>> 6a8b9647dc52157f83202538abf9a68fc7aed1d4:100 Days of Coding/Test Directory/fullWeek.css
 }
