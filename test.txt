@@ -1,0 +1,11 @@
+This is my first commit of this project!
+Note: git init - initializes the repository to be able to store files
+    git status - informs where files are on which branch, whether they are tracked, and confirms clean commits
+    git add - stages changes to files 
+    git commit -m "Place message in quotations" - commits the changes that have been staged
+    git config --global user.name - Displays user credentials who making changes to code
+        git config --global user.name "Using Quotes Changes Credentials"
+        git config --global user.email "Using Quotes Changes Credentials"
+    git log - displays Author, Date, Commit ID, & Time for code changes 
+
+Here we go with commit #2!
