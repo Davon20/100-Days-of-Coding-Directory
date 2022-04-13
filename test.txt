@@ -1,4 +1,4 @@
-This is my first commit of this project!
+This is again a commit of this project!
 Note: git init - initializes the repository to be able to store files
     git status - informs where files are on which branch, whether they are tracked, and confirms clean commits
     git add - stages changes to files 
