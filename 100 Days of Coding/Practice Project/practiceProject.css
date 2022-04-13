@@ -1,0 +1,72 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(244, 234, 255);
+    padding: 32px; 
+}
+
+h1{
+    font-size: 52px;/* px sets dimensions of page independent of device use, rendering auto scale. */
+    color: rgb(88, 49, 196,);
+}
+
+header{
+    text-align: center;
+}
+
+header img/* this css combinator targets all images in the header */{
+    width: 300px;
+}
+
+main{
+    background-color: rgb(122,74,218);
+    padding: 32px;
+    margin: 32px auto;
+    width: 700px;
+    border-radius: 8px;
+    color: white;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    border-radius: 4px;
+    padding: 2px 6px;
+}
+
+a:hover, /* The comma here allows for the joining of 2 elements to have the same formatting. */ 
+a:active{
+    background-color: gold;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    color: blue;
+}
+
+footer a{
+    padding: 12px 20px;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+}
+
+li{
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+
+.extraLight{
+    color: yellow;
+    border-color: yellow;
+}
