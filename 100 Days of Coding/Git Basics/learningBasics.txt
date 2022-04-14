@@ -34,3 +34,11 @@ Understanding Branches Follow Along Notes:
 Deleting Files, Directories, & Branches:
 Always use git rm 'fileName' as just removing files from folder will require the changes to be staged while the command removes the file from the staging area already. 
     How to stage deleted files? git add .(This . wouldn't be applicable to how I'm trying to learn to delete files, so I'll create a dummy file to delete.)
+        git rm 'fileName' after adding then committing the file.
+
+Checkout to other branch before deleting. git checkout otherBranchName then git branch -D deleteBranch.  
+git checkout -- . will reset files to most recent committed state. This removes unstaged changes. 
+git reset fileName.txt will reset that file so that checkout will occur. 
+
+Reverting To Former Commits
+git reset --hard HEAD~1(most recent commit), 2(2nd most recent commit), 3 and so on. Using this command deletes the commits ahead. 
