@@ -1,0 +1,44 @@
+This is the initial commit!
+
+git init - Sends the remote file to Git Server. 
+git status - Displays what files have been changed. What needs to be tracked. What needs to be committed.
+git add fileName - Only use the fileName, otherwise a submodule will be created causes code conflicts.
+
+git config --global --edit - Displays user information who changed code.(This command creates a .gitconfig.swp for some reason???)
+git config --global user.name
+git config --global user.email
+
+This is the secondary commit! 
+
+git add fileName1 fileName2 when adding multiple files. When adding files, be in the directory of those files.
+
+git branch - Displays all of the branches being used. 
+git branch -m newName - changes the name of branch.
+git checkout -b - creates new branch and also changes between available branches.
+git checkout -b newBranch - creates a new branch by that naming convention. 
+
+Understanding Branches Follow Along Notes:
+1. Create new branch. git checkout -b newBranch
+2. Create new folder. Create new text file within folder. These will only exist in newBranch, seperate from master.
+3. git add fileName to add changes. git commit -m "adding new file and folder".
+4. To MERGE - 
+    a. git checkout master
+    b. git merge newBranch
+    c. This merges the commits from newBranch into master. 
+5. Resolve Merge Conflicts 
+    a. Accept Current or Incoming Changes
+    b. Save File
+    c. git add . file w/changes
+    d. git commit -m "accepted changes"
+
+Deleting Files, Directories, & Branches:
+Always use git rm 'fileName' as just removing files from folder will require the changes to be staged while the command removes the file from the staging area already. 
+    How to stage deleted files? git add .(This . wouldn't be applicable to how I'm trying to learn to delete files, so I'll create a dummy file to delete.)
+        git rm 'fileName' after adding then committing the file.
+
+Checkout to other branch before deleting. git checkout otherBranchName then git branch -D deleteBranch.  
+git checkout -- . will reset files to most recent committed state. This removes unstaged changes. 
+git reset fileName.txt will reset that file so that checkout will occur. 
+
+Reverting To Former Commits
+git reset --hard HEAD~1(most recent commit), 2(2nd most recent commit), 3 and so on. Using this command deletes the commits ahead. 
