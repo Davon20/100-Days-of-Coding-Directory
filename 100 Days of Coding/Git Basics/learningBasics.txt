@@ -30,3 +30,7 @@ Understanding Branches Follow Along Notes:
     b. Save File
     c. git add . file w/changes
     d. git commit -m "accepted changes"
+
+Deleting Files, Directories, & Branches:
+Always use git rm 'fileName' as just removing files from folder will require the changes to be staged while the command removes the file from the staging area already. 
+    How to stage deleted files? git add .(This . wouldn't be applicable to how I'm trying to learn to delete files, so I'll create a dummy file to delete.)
