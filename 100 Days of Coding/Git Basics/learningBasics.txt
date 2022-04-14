@@ -48,3 +48,8 @@ git remote add origin git@github.com:Davon20/100-Days-of-Coding-Directory.git
     The above command adds a connection to the remote repository. Origin keyword has the value of the URL so that the only origin is required rather than the URL each time.
 git push origin master 
     This pushes the code to GitHub. 
+
+Implement Changes Across Machines
+git clone https code link from GitHub Directory 
+git clone https://github.com/Davon20/100-Days-of-Coding-Directory.git . The . at the end adds everything from the repository.
+git push origin main is what allows new changes on a new machine to be added. This only requires to sign into GitHub from the new machine. 
