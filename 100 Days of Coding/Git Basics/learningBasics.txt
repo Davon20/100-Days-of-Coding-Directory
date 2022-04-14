@@ -7,3 +7,7 @@ git add fileName - Only use the fileName, otherwise a submodule will be created 
 git config --global --edit - Displays user information who changed code.(This command creates a .gitconfig.swp for some reason???)
 git config --global user.name
 git config --global user.email
+
+This is the secondary commit! 
+
+git add fileName1 fileName2 when adding multiple files. When adding files, be in the directory of those files.
