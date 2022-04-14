@@ -11,3 +11,22 @@ git config --global user.email
 This is the secondary commit! 
 
 git add fileName1 fileName2 when adding multiple files. When adding files, be in the directory of those files.
+
+git branch - Displays all of the branches being used. 
+git branch -m newName - changes the name of branch.
+git checkout -b - creates new branch and also changes between available branches.
+git checkout -b newBranch - creates a new branch by that naming convention. 
+
+Understanding Branches Follow Along Notes:
+1. Create new branch. git checkout -b newBranch
+2. Create new folder. Create new text file within folder. These will only exist in newBranch, seperate from master.
+3. git add fileName to add changes. git commit -m "adding new file and folder".
+4. To MERGE - 
+    a. git checkout master
+    b. git merge newBranch
+    c. This merges the commits from newBranch into master. 
+5. Resolve Merge Conflicts 
+    a. Accept Current or Incoming Changes
+    b. Save File
+    c. git add . file w/changes
+    d. git commit -m "accepted changes"
