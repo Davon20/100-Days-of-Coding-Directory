@@ -1,0 +1,9 @@
+This is the initial commit!
+
+git init - Sends the remote file to Git Server. 
+git status - Displays what files have been changed. What needs to be tracked. What needs to be committed.
+git add fileName - Only use the fileName, otherwise a submodule will be created causes code conflicts.
+
+git config --global --edit - Displays user information who changed code.(This command creates a .gitconfig.swp for some reason???)
+git config --global user.name
+git config --global user.email
