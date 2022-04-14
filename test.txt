@@ -1,0 +1,28 @@
+This is again a commit of this project!
+Note: git init - initializes the repository to be able to store files
+    git status - informs where files are on which branch, whether they are tracked, and confirms clean commits
+    git add - stages changes to files 
+    git commit -m "Place message in quotations" - commits the changes that have been staged
+    git config --global user.name - Displays user credentials who making changes to code
+        git config --global user.name "Using Quotes Changes Credentials"
+        git config --global user.email "Using Quotes Changes Credentials"
+    git log - displays Author, Date, Commit ID, & Time for code changes 
+    git add . - Commits every change from every file all at once rather than needing to check them all indiviually
+
+Here we go with commit #2!
+    git branch -m - changes the name of the master branch to whatever is typed after -m, ex: git branch -m main, changes the name to main
+    git branch -b feature - changes the branch you are working in. This is done when you need to change and test code before implementing into the main branch or source code.
+    git checkout master - Always switch to main/master then merge using title of branch to be merged into master.
+    git merge feature - Merges the sub branch into the main/master branch. 
+
+Notes for Deleting Branches, Files, & Folder
+--Create Branch: git checkout -b newBranchName, git add ., git commit -m "added newBranchName"
+--Deletion from Folder: Requires changes to be staged then committed
+--Deletion from File: git rm fileName.fileExtension. If the file can't be deleted then go into the directory using cd folderName.
+--git reset --hard HEAD~#of commits to return to
+--git branch -D branchName deletes the branch. Change the branch you are on first using git branch -m branchName.
+--git checkout -- . resets the branch to the last commit.
+
+Adding Repositories
+    1. git remote add origin https://github.com/Davon20/100-Days-of-Coding-Directory
+    2. git push -u origin main 
