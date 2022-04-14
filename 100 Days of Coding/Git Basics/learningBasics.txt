@@ -42,3 +42,9 @@ git reset fileName.txt will reset that file so that checkout will occur.
 
 Reverting To Former Commits
 git reset --hard HEAD~1(most recent commit), 2(2nd most recent commit), 3 and so on. Using this command deletes the commits ahead. 
+
+Push Remote Repository
+git remote add origin git@github.com:Davon20/100-Days-of-Coding-Directory.git
+    The above command adds a connection to the remote repository. Origin keyword has the value of the URL so that the only origin is required rather than the URL each time.
+git push origin master 
+    This pushes the code to GitHub. 
