@@ -1,0 +1,13 @@
+body{
+    background: linear-gradient(30deg, rgb(39, 39, 39), black);
+}
+
+header{
+    position: static;/* Required to override the default position from shared.css If the sequence of the file
+    order should change this won't override as it's not being called before style.css*/
+}
+
+main li img{
+    width: 300px;
+    height: 280px;
+}

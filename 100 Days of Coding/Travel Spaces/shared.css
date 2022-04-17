@@ -1,0 +1,76 @@
+body{
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+#pageLogo a{
+    padding: 10px; 
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(74, 128, 255);;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase; /*This defines how the letters are displayed.*/
+    text-shadow: 2px 2px 2px black;
+}
+header ul{
+    display: flex;
+}
+
+header li{
+    margin: 20px;
+}
+
+header a{
+    color: rgb(74, 128, 255);
+    font-weight: 400;
+    text-shadow: 8px 8px 8px black;
+    text-decoration: none;
+    padding: 12px;
+    font-size: 20px;
+}
+
+header a:hover{
+    background-color: rgba(255, 255, 255, 0.464);
+    color: rgb(74, 128, 255);
+    border-radius: 8px;
+}
+
+footer{
+    background: linear-gradient(180deg, rgb(39, 38, 38), rgb(66, 65, 65));
+    padding: 20px;
+}
+
+footer ul{
+    display: flex;/* Places elements horizontal that were presented as only vertical. */
+    justify-content: center;/* Aligns icons to the center of the element block. */
+    
+}
+
+footer li{
+    width: 40px;
+    height: 40px;
+    margin: 0 50px;
+}
+
+footer img{
+    width: 100%;
+    height: 100%;
+}
