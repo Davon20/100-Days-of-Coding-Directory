@@ -2,17 +2,34 @@ body {
     background: linear-gradient(30deg, rgb(39, 39, 39), black);
 }
 
+#page-logo a{
+    background-color: rgb(154, 198, 255);
+}
+
 header {
     position: static;
     /* Required to override the default position from shared.css If the sequence of the file
     order should change this won't override as it's not being called before style.css*/
 }
 
+#header a{
+    background-color: rgb(154, 198, 255);
+} 
+
+#header nav a:hover{
+    background-color: rgb(154, 198, 255);
+    color: blue;
+}
+
 main ul {
-    width: 1500px;
-    margin: 0 auto;
+    width: 1200px;
+    margin: 0 auto 48px auto;
     /* This centers the entire section. 0 removes any vertical margin while auto fits width of
     section into the width limit. */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    justify-content: center;
 }
 
 main li {
@@ -23,7 +40,7 @@ main li {
     overflow: hidden;
     /* When an element exceeds the border of a container, the container's value is 
     applied using this property. */
-    width: 500px;
+    width: 700px;
 }
 
 main li img {
@@ -32,13 +49,17 @@ main li img {
     object-fit: cover;
 }
 
-.itemContent {
+.item-content {
     padding: 24px;
     display: flex;
     flex-direction: column;
     /* This vertically aligns ALL the elements */
     justify-content: space-between;
     /* This spaces the elements evenly */
+}
+
+.item-content h2{
+    margin: 0;
 }
 
 .actions {
@@ -54,4 +75,9 @@ main li img {
 
 .actions a:hover {
     background-color: rgb(154, 198, 255);
+}
+
+main li:nth-of-type(3){
+    grid-column: 1 / 3;
+    width: auto;
 }
