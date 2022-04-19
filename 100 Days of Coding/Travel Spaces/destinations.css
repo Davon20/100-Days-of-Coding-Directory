@@ -1,33 +1,57 @@
-body{
+body {
     background: linear-gradient(30deg, rgb(39, 39, 39), black);
 }
 
-header{
-    position: static;/* Required to override the default position from shared.css If the sequence of the file
+header {
+    position: static;
+    /* Required to override the default position from shared.css If the sequence of the file
     order should change this won't override as it's not being called before style.css*/
 }
 
-main ul{
-    width: 800px;
-    margin: 0 auto; /* This centers the entire section. 0 removes any vertical margin while auto fits width of
+main ul {
+    width: 1500px;
+    margin: 0 auto;
+    /* This centers the entire section. 0 removes any vertical margin while auto fits width of
     section into the width limit. */
 }
 
-main li{
+main li {
     display: flex;
     background-color: white;
     box-shadow: 2px 4px 8px rgb(255, 255, 255);
     border-radius: 6px;
-    overflow: hidden; /* When an element exceeds the border of a container, the container's value is 
+    overflow: hidden;
+    /* When an element exceeds the border of a container, the container's value is 
     applied using this property. */
+    width: 500px;
 }
 
-main li img{
+main li img {
     width: 300px;
     height: 280px;
     object-fit: cover;
 }
 
-.itemContent{
+.itemContent {
     padding: 24px;
+    display: flex;
+    flex-direction: column;
+    /* This vertically aligns ALL the elements */
+    justify-content: space-between;
+    /* This spaces the elements evenly */
+}
+
+.actions {
+    text-align: right;
+    color: lightblue;
+}
+
+.actions a {
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.actions a:hover {
+    background-color: rgb(154, 198, 255);
 }

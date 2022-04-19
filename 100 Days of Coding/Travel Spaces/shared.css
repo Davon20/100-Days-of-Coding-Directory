@@ -24,7 +24,7 @@ header{
 #pageLogo a{
     padding: 10px; 
     font-family: "Oleo Script", sans-serif;
-    color: rgb(74, 128, 255);;
+    color: rgb(74, 128, 255);
     font-size: 50px;
     text-decoration: none;
     text-transform: uppercase; /*This defines how the letters are displayed.*/
