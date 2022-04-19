@@ -7,7 +7,27 @@ header{
     order should change this won't override as it's not being called before style.css*/
 }
 
+main ul{
+    width: 800px;
+    margin: 0 auto; /* This centers the entire section. 0 removes any vertical margin while auto fits width of
+    section into the width limit. */
+}
+
+main li{
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 4px 8px rgb(255, 255, 255);
+    border-radius: 6px;
+    overflow: hidden; /* When an element exceeds the border of a container, the container's value is 
+    applied using this property. */
+}
+
 main li img{
     width: 300px;
     height: 280px;
+    object-fit: cover;
+}
+
+.itemContent{
+    padding: 24px;
 }
