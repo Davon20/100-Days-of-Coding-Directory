@@ -1,0 +1,12 @@
+7min of 1hr - I'm measuring how many hours it takes to complete this project in fragments of 50/10 Pomorodo.
+
+2hr Objective: Use follow along to answer questionable developments.
+    1. How is flex display not reaching the borders of the page?
+    BODY DOESN'T REQUIRE # AS IT'S NOT CALLING A SELECTOR. 
+    MARGIN: 0; IS REQUIRED TO ALIGN CONTENT TO PAGE BORDERS, YET IT HAS TO GO
+    IN BODY ELEMENT.  
+    ---19min of 2hr - The structure of my code is flawed. 
+    ---43min of 2hr - In terms of what was demostrated as being required, 
+    my code is still elementary. There are many components that could've been
+    added that I didn't consider. I need more practice on building page 
+    structure.
