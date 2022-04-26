@@ -1,29 +1,38 @@
-#todays-challenge{
-    color:  rgb(200,200,200);
-    font-size: 20px;
-}
-nav{
-    margin: 0 50px;
+body{
+    margin: 0 auto;
 }
 nav ul{
     list-style: none;
     display: flex;
-    margin: 15px;
-    padding: 0;
+    justify-content: center;
+    margin-left: -40px;
 }
 nav li{
-    border: solid black;
+    transition: transform 0.8s ease-in 0.03s;
     border-radius: 10px;
-    margin: 0 auto;
     font-size: 20px;
+    border: solid black;
+    width: 600px;
+    margin: 0 10px;
 }
 nav li:hover{
     background-color: white;
+    transform: scale(1.06);
 }
-nav li a{
-    transition: transform 5s ease-in 5s;
-    color: red;
+
+h2{
+    font-size: 1.6rem;
+    
 }
-nav li a:hover{
-    transform: scale(1.3);
+a{
+    color: rgb(90, 89, 89);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.8s ease-in 0.03s;
+    font-weight: bold;
+}
+
+.newPages:hover{
+    transform: scale(1.5);    
+    color: gold;
 }
