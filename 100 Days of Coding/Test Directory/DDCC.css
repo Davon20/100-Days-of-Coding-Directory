@@ -1,4 +1,29 @@
 #todays-challenge{
-    color: darkorchid;
+    color:  rgb(200,200,200);
     font-size: 20px;
+}
+nav{
+    margin: 0 50px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 15px;
+    padding: 0;
+}
+nav li{
+    border: solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+nav li:hover{
+    background-color: white;
+}
+nav li a{
+    transition: transform 5s ease-in 5s;
+    color: red;
+}
+nav li a:hover{
+    transform: scale(1.3);
 }
