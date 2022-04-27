@@ -9,8 +9,30 @@
 <body>
     <form action="/" method="GET">
     <!-- action sends user to url that follows submission. method uses GET or POST -->
-        <label for="user-name">Your Name</label><!-- for="" allows for name to access the field -->
-        <input type="text" name="user-name" id="user-name">
+        <label for="username">Your Name</label><!-- for="" allows for name to access the field -->
+        <input type="text" name="user-name" id="username">
+        <label for="useremail">Email Address</label>
+        <input type="email" name="user-email" id="useremail">
+        <label for="userage">Your Age</label>
+        <input type="number" id="userage">
+        <label for="userpassword">Your Password</label>
+        <input type="password" name="user-password" id="userpassword">
+        <label for="birthdate">Your Birthdate</label>
+        <input type="date" id="birthdate" name="user-birthdate">
+        <hr>
+        <h2>How should we verify your account?</h2>
+        <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-text" value="text-message"/>
+            <label for="verify-text-message">Via Text Message(SMS)</label>
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-phone" value="phone"/>
+            <label for="verify-phone">Via A Phone Call</label>
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" name="verify" id="verify-email" value="email"/>
+            <label for="verify-email">Via An Email</label>
+        </div>
         <button>Submit/Add User</button>
     </form>    
 </body>
