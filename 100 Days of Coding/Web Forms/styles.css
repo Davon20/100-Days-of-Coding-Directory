@@ -48,11 +48,11 @@ button:hover{
     border-color: rgb(133, 64, 198);
 }
 
-.form-control-line{
+.form-control-inline{
     display: flex;
 }
 
-.form-control-line input{
+.form-control-inline input{
     width: auto;
     margin-right: 0.5rem;
 }
