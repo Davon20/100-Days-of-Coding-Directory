@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forms Challenge</title>
+</head>
+
+<body>
+    <header>Contact Us</header>
+    <main>
+        <form action="./Web Forms/WF Challenge/" method="GET">
+            <section id="user">
+                <h2>How Can We Help You?</h2>
+                <ul>
+                    <li>
+                        <label for="username">Your Name</label>
+                        <input type="text" name="user-name" id="username" required>
+                    </li>
+                    <li>
+                        <label for="useremail">Your E-mail Address</label>
+                        <input type="email" name="user-email" id="useremail" required>
+                    </li>
+                    <li>
+                        <label for="userphone">Your Phone Number</label>
+                        <input type="number" name="user-phone" id="userphone" required minlength="10">
+                    </li>
+                    <li>
+                        <label for="usermessage">Your Message</label>
+                        <textarea name="user-message" id="usermessage" cols="30" rows="2" minlength="10" maxlength="200"></textarea>
+                    </li>
+                </ul>
+            </section>
+            <section id="inform">
+                <div>How Did You Find Us?</div>
+                <select name="user-source" id="usersource" required>
+                    <option value="Website">Website</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Email">Email</option>
+                </select>
+
+            </section>
+            <section>
+                <h2>How Should We Reply?</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="verify" id="contactphone" value="phone" required>
+                        <label for="contactphone">Call Me</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="verify" id="contactemail" value="email" required>
+                        <label for="contactemail">Send Me An Email</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="verify" id="dontreply" value="replynone" required>
+                        <label for="dontreply">Don't Reply</label>
+                    </li>
+                </ul>
+            </section>
+            <section id="terms">
+                <input type="checkbox" name="confirmation" id="confirmation" required>
+                <label for="confirmation">Accept Terms</label>
+            </section>
+            
+            <section id="buttons">
+                <button type="reset" class="btn-empty">Clear</button>
+                <!-- type=""  is how the buttons respond -->
+                <button type="submit" class="btn-filled">Submit</button>
+            </section>
+        </form>
+    </main>
+
+</body>
+
+</html>
