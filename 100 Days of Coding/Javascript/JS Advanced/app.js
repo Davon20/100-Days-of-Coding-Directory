@@ -26,3 +26,7 @@ let firstParagragh = document.querySelector("p");
     /* gets access to location of where the new element will go */
 firstParagragh.append(newAnchor);
     /* append adds new elements after current elements */
+
+//DELETEING ELEMENTS
+let firstElement = document.querySelector("h1");
+firstElement.remove();
