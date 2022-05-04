@@ -1,1 +1,0 @@
-﻿Console.WriteLine("Finally, I've Reached The World!");
