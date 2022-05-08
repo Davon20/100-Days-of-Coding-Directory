@@ -15,6 +15,25 @@ function updateRemainingCharacters(event){
     let remainingCharacters = maxAllowedChars - enteredTextLength;
     //Updates the remainder of the characters
     remainingCharsElement.textContent = remainingCharacters;
+
+    if(remainingCharacters === 0) {
+        //This targets the element itself from within JS code
+        //remainingCharsElement.style.color = "red";
+
+        //This incorporates CSS
+        remainingCharsElement.classList.add("error");
+        //This changes the background of the input field
+        productNameInputElement.classList.add("error");
+    } else if(remainingCharacters <= 10) {
+        remainingCharsElement.classList.add("warning");
+        productNameInputElement.classList.add("warning");
+        remainingCharsElement.classList.remove("error");
+        productNameInputElement.classList.remove("error");
+    }
+    else {
+        remainingCharsElement.classList.remove("warning");
+        productNameInputElement.classList.remove("warning");
+    }
 }
 //Listens to the user input
 productNameInputElement.addEventListener("input", updateRemainingCharacters);
