@@ -11,7 +11,7 @@ function calculateSum(){
     const enteredNum = userNum.value;
     /* Defines variable of sum */
     let sumUp = 0;
-    /* the for loop will run as long as the number entered isn't reached */
+    /* the for loop will run until the number of iterations is reached */
     for(let i = 0; i <= enteredNum; i++) {
         //sumUp is to be iterated as each iteration is a new number
         sumUp = sumUp + i;
@@ -57,7 +57,7 @@ function displayUserData() {
     const outputResult = document.getElementById("output-user-data");
     //this element removes the user data in list items so that each time the button is clicked it clears the list
     outputResult.innerHTML = " ";
-    //for loops are to be used whenever there is a task that needs to be completed for each property in an object
+    //for-in loops are to be used whenever there is a task that needs to be completed for each property in an object
     for(const key in dummyUserData){
         //creates the data list from inside the function 
         const newUserDataListItemElement = document.createElement("li");
