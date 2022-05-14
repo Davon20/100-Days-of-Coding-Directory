@@ -1,6 +1,7 @@
 //Stores The Functionality of JS Code
 function openPlayerConfig(event) {
     editedPlayer = +event.target.dataset.playerid;
+    formElement.firstElementChild.classList.remove("error");
     playerConfigOverlayElement.style.display = "block";
     backdropElement.style.display = "block";
 }
